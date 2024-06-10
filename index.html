@@ -12,29 +12,17 @@
     <table align="center">
         <form>
             <tr>
-                <td>
-                    Username:
-                </td>
-                <td>
-                    <input type="text" maxlength="20" size="30" />
-                </td>
+                <td>Username:</td>
+                <td><input type="text" maxlength="20" size="30" /></td>
             </tr>
             <tr>
-                <td>
-                    password:
-                </td>
-                <td>
-                    <input type="password" maxlength="20" size="30" />
-                </td>
+                <td>password:</td>
+                <td><input type="password" maxlength="20" size="30" /></td>
             </tr>
             <tr>
-                <td>
-                    City of <br />
-                    Employment:
-                </td>
-                <td>
-                    <input type="text" maxlength="20" size="30" />
-                </td>
+                <td>City of <br />
+                    Employment:</td>
+                <td><input type="text" maxlength="20" size="30" /></td>
             </tr>
             <tr>
                 <td>Web Server:</td>
@@ -50,41 +38,30 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="1">
-                    Please specifiy <br />
-                    your Role:</td>
+                <td colspan="1">Please specifiy <br /> your Role:</td>
                 <td>
-                    Admin <input type="radio" value="Admin">
-                    Engineer <input type="radio" value="Engineer">
-                    Manager <input type="radio" value="manager">
-                    Guest <input type="radio" value="Guest">
+                    Admin <input type="radio" name="Role" value="Admin">
+                    Engineer <input type="radio" name="Role" value="Engineer">
+                    Manager <input type="radio" name="Role" value="manager">
+                    Guest <input type="radio" name="Role" value="Guest">
                 </td>
             <tr>
-                <td>
-                    Single Sign-on <br />
-                    to the following:
-                </td>
+                <td> Single Sign-on <br /> to the following:</td>
                 <td>
                     Mail:
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="services" value="Mail" id="">
                     Payroll:
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="services" value="Payroll" id="">
                     Self-service:
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="services" value="Self-service" id="">
                 </td>
             </tr>
             <tr>
-                <td>
-                    <input type="submit" value="login" name="login">
-                </td>
-                <td>
-                    <input type="submit" value="Reset" name="Reset">
-                </td>
+                <td><input type="submit" value="login"></td>
+                <td> <input type="reset" value="Reset"></td>
             </tr>
         </form>
     </table>
-
-
 </body>
 
 </html>
